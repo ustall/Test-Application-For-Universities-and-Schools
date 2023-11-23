@@ -1,4 +1,3 @@
-Certainly! Here's a simplified README for your C# test application:
 
 # Simple Test Generator
 
@@ -9,6 +8,9 @@ Simple Test Generator is a basic application developed for a university project.
 ## Features
 
 - **User-Friendly Interface:** The application provides an easy-to-use interface for generating and managing tests.
+
+- ### Ui samples
+![Alt Text](/images/ui1.png)
 
 - **No Database Dependency:** Simple Test Generator operates without a database. It utilizes arrays of "question" objects to store test data, eliminating the need for a database setup.
 
@@ -22,7 +24,7 @@ To modify the test content, follow these steps:
 
 1. Open the project in Visual Studio.
 2. Locate the `ChooserFrame.cs` file.
-3. Find the `listBox1.Items.Add(` section in the code.
+3. Find the `listBox1.Items.Add` section in the code and change the names of your tests. You can add or deleat names and entries if you need. 
 4. Update the test content by adding or modifying the `Question` objects. For example, in `ControlTest.cs`:
 
 ```csharp
