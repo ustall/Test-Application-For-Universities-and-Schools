@@ -1,5 +1,5 @@
 
-# Simple Test Generator
+# Simple Tests Application for Universities and Schools
 
 ## Overview
 
@@ -7,11 +7,13 @@ Simple Test Generator is a basic application developed for a university project.
 
 ## Features
 
-- **User-Friendly Interface:** The application provides an easy-to-use interface for generating and managing tests.
+- **User-Friendly Interface:** The application provides an easy-to-use interface for choosing and taking tests
 
 - **No Database Dependency:** Simple Test Generator operates without a database. It utilizes arrays of "question" objects to store test data, eliminating the need for a database setup.
 
 - **Customizable Tests:** Users can easily modify the test content by adjusting the arrays of "question" objects directly in the code.
+
+- **Custom Questions Genrator written in Python:** Users can easily generate test from text by my simple questions generator. You can learn more in ![Path](/simple_questions_gen).
 
 - ### Ui samples
 ![Test UI](/images/ui1.png)
@@ -50,6 +52,3 @@ This application was developed for educational purposes, and its simplicity is i
 ## License
 
 This project is open-source and is provided under the [MIT License](LICENSE).
-```
-
-Replace the placeholder content with actual details relevant to your project. This README focuses on the simplicity and purpose of the application, providing users with clear instructions on how to modify the test content.
