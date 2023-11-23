@@ -32,12 +32,11 @@ To modify the test content, follow these steps:
 5. Update the test content by adding or modifying the `Question` objects. For example, in `ControlTest.cs`:
 
 ```csharp
-case 1:
-    return new Question[]
-    {
-        new Question("What is the capital of France?", new string[] { "Paris", "Berlin", "Madrid", "Rome" }, 0),
-        // Add more questions as needed
-    };
+new Question(
+    "Question",
+    "Variants",
+    "Answer"
+),
 ```
 
 5. Save the changes.
