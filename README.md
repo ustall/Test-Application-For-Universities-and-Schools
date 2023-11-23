@@ -13,7 +13,7 @@ Simple Test Generator is a basic application developed for a university project.
 
 - **Customizable Tests:** Users can easily modify the test content by adjusting the arrays of "question" objects directly in the code.
 
-- **Custom Questions Genrator written in Python:** Users can easily generate test from text by my simple questions generator. You can learn more in ![Path](/simple_questions_gen).
+- ***Custom Questions Genrator written in Python:*** Users can easily generate test from text by my simple questions generator. You can learn more ![here](/simple_questions_gen)!
 
 - ### Ui samples
 ![Test UI](/images/ui1.png)
@@ -27,8 +27,9 @@ To modify the test content, follow these steps:
 
 1. Open the project in Visual Studio.
 2. Locate the `ChooserFrame.cs` file.
-3. Find the `listBox1.Items.Add` section in the code and change the names of your tests. You can add or deleat names and entries if you need. 
-4. Update the test content by adding or modifying the `Question` objects. For example, in `ControlTest.cs`:
+3. Find the `listBox1.Items.Add` section in the code and change the names of your tests. You can add or deleat names and entries if you need.
+4. Load your text of test in my ![simple_questions_gen](/simple_questions_gen)!
+5. Update the test content by adding or modifying the `Question` objects. For example, in `ControlTest.cs`:
 
 ```csharp
 case 1:
