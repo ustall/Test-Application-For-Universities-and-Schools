@@ -3,7 +3,7 @@
 
 ## Overview
 
-Simple Test Generator is a basic application developed for a university project. It is a straightforward and quickly implemented tool designed to assist in generating and managing tests. The application is written in C# using Visual Studio and features a simple user interface.
+Simple Test Application is a basic application developed for a university. It is a straightforward and quickly implemented tool designed to assist in generating and taking tests. The application is written in C# using Visual Studio and Python for generating tests, and features a simple user interface.
 
 ## Features
 
