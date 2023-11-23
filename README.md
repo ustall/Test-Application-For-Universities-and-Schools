@@ -9,13 +9,14 @@ Simple Test Generator is a basic application developed for a university project.
 
 - **User-Friendly Interface:** The application provides an easy-to-use interface for generating and managing tests.
 
-- ### Ui samples
-![Alt Text](/images/ui1.png)
-
 - **No Database Dependency:** Simple Test Generator operates without a database. It utilizes arrays of "question" objects to store test data, eliminating the need for a database setup.
 
 - **Customizable Tests:** Users can easily modify the test content by adjusting the arrays of "question" objects directly in the code.
 
+- ### Ui samples
+![Test UI](/images/ui1.png)
+![Choose test UI](/images/ui2.png)
+![Check answers UI](/images/ui2.png)
 ## Usage
 
 ### Changing Test Content
