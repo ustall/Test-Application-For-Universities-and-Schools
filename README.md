@@ -13,7 +13,7 @@ Simple Test Application is a basic application developed for a university. It is
 
 - **Customizable Tests:** Users can easily modify the test content by adjusting the arrays of "question" objects directly in the code.
 
-- ***Custom Questions Genrator written in Python:*** Users can easily generate test from text by my simple questions generator. You can learn more ![here](/simple_questions_gen)!
+- ***Custom Questions Generator written in Python:*** Users can easily generate test from text by my simple questions generator. You can learn more ![here](/simple_questions_gen)!
 
 - ### Ui samples
 ![Test UI](/images/ui1.png)
