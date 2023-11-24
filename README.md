@@ -18,7 +18,7 @@ Simple Test Application is a basic application developed for a university. It is
 - ### Ui samples
 ![Test UI](/images/ui1.png)
 ![Choose test UI](/images/ui2.png)
-![Check answers UI](/images/ui2.png)
+![Check answers UI](/images/ui3.png)
 ## Usage
 
 ### Changing Test Content
