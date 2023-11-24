@@ -63,6 +63,7 @@ This simple Python script is designed for generating text-based questions and an
     - Reads from a text file and generates questions with a single correct textual answer.
     - Example input:
         ```
+        Укажите правильный ответ.
         «Столица России»
         Ответ: Москва
         ```
@@ -89,10 +90,10 @@ This simple Python script is designed for generating text-based questions and an
     - Output:
         ```python
         new Question(
-            "Понятийное мышление -\\nконкретно",
-            "\\n1. конкретно\\n2. абстрактно\\n3. образно\\n4. символично",
-            "2"
-        ),
+                    "Укажите правильный ответ.\r\nВ качестве ответа введите цифру.\r\nПонятийное мышление -:",
+                    "1) Конкретно \r\n2) Абстрактно\r\n3) Образно\r\n4) Символично",
+                    "2"
+                ),
         ```
 
 3. **Hard Question Generator**
