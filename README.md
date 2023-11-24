@@ -52,3 +52,81 @@ This application was developed for educational purposes, and its simplicity is i
 ## License
 
 This project is open-source and is provided under the [MIT License](LICENSE).
+
+# Simple Text-Based Question Generator
+
+This simple Python script is designed for generating text-based questions and answers. It includes three types of question generators: Simple Question, Hard Question, and Chooser Question.
+
+## Usage
+
+1. **Simple Question Generator**
+    - Reads from a text file and generates questions with a single correct textual answer.
+    - Example input:
+        ```
+        «Столица России»
+        Ответ: Москва
+        ```
+    - Output:
+        ```python
+        new Question(
+            "Укажите правильный ответ.\nОтвет пишите с маленькой буквы,
+            "Столица России",
+            "Москва"
+        ),
+        ```
+
+2. **Chooser Question Generator**
+    - Reads from a text file and generates multiple-choice questions with a designated correct answer.
+    - Example input:
+        ```
+        Укажите правильный ответ:
+        Понятийное мышление -
+        конкретно
+        абстрактно +
+        образно
+        символично
+        ```
+    - Output:
+        ```python
+        new Question(
+            "Понятийное мышление -\\nконкретно",
+            "\\n1. конкретно\\n2. абстрактно\\n3. образно\\n4. символично",
+            "2"
+        ),
+        ```
+
+3. **Hard Question Generator**
+    - Reads from a text file and generates matching questions with a specific order of correct answers.
+    - Example input:
+        ```
+        Установите соответствие между контекстами и выражениями так, чтобы получились истинные высказывания:
+        Контекст                                                                Выражение
+        ... - город Европейской части России (2)                                1. «Москва»
+        ... - название города (1)                                               2. Москва
+        ... - выражение русского языка (4)                                      3. «Столица России»
+        ... - выражение, обозначающее слово (3)                                 4. ««Москва»«
+                                                                                 5. Столица России
+        ```
+    - Output:
+        ```python
+          ,new Question(
+                  "Укажите правильный ответ.\r\nВ качестве ответа пишите цифры по порядку без пробелов и запятых (1231).\r\nУстановите соответствие между контекстами и выражениями так, чтобы получились истинные высказывания:",
+                  "1. ... - город Европейской части России \n2. ... - название города \n3. ... - выражение русского языка \n4. ... - выражение, обозначающее слово\r\n\n1. «Москва»\n2. Москва\n3. «Столица России»\n5. ««Москва»»\n6. Столица России",
+                  "2143"
+                ),
+        ```
+
+## How to Use
+
+1. Save your question data in a text file (e.g., '01.txt') according to the specified format.
+2. Run the script and choose the type of question you want to generate.
+
+## Running the Script
+
+```bash
+python script_name.py
+```
+
+Follow the on-screen prompts to generate questions based on your chosen type.
+
+This project is open-source and is provided under the MIT License.
